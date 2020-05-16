@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <title>Jogo de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jogadores">
+            <div class="jogador0">
+                <p class="nome-jogador active" id="nome-jogador-0">Jogador 1</p>
+                <div class="pontuacao-global" id="pontuacao-global-0"></div>
+                <div class="caixa-pontuacao-rodada-0">
+                    <p>Pontuação da rodada</p>
+                    <div class="pontuacao-rodada-0" id="pontuacao-rodada-0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="jogador1">
+                <p class="nome-jogador" id="nome-jogador-1">Jogador 2</p>
+                <div class="pontuacao-global" id="pontuacao-global-1"></div>
+                <div class="caixa-pontuacao-rodada-1">
+                    <p>Pontuação da rodada</p>
+                    <div class="pontuacao-rodada-1" id="pontuacao-rodada-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botoes">
+            <button class="botao lancar-dado" id="botao-lancar-dado">
+                Lançar Dado
+            </button>
+            <button class=" botao passar-vez" id="botao-passar-vez">
+                Passar vez
+            </button>
+            <button class=" botao novo-jogo" id="botao-novo-jogo">Novo jogo</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

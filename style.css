@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+   }
+   .container {
+    max-width: 720px;
+    margin: auto;
+   }
+   .jogador0, .jogador1 {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 2px
+   }
+   .jogador0 {
+    float: left;
+   }
+   .jogador1 {
+    float: right;
+   }
+   .jogadores {
+    margin-bottom: 20px;
+   }
+   .jogadores::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
+   .nome-jogador {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    background-color: aliceblue;
+   }
+   .active{
+       background-color: aqua;
+   }
+   .caixa-pontuacao-rodada-0, .caixa-pontuacao-rodada-1 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+   }
+   .pontuacao-rodada-0, .pontuacao-rodada-1 {
+    position: relative;
+    background-color: rgba(255, 166, 0, 0.342);
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    font-size: 24px;
+   }
+   .pontuacao-global {
+    position: relative;
+    top: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.486);
+   }
+   .botao {
+    padding: 12px;
+    font-size: 16px;
+    background-color: aliceblue;
+   }
+   .botoes {
+    width: 50%;
+    margin: auto;
+   }
+   
